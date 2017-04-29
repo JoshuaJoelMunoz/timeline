@@ -28,6 +28,18 @@
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
+    <canvas id="canvas"></canvas>
+
+    <div id="paint">
+      <h1 style="margin-left: 1rem; color:#444;">Paint!</h1>
+      <form action="#" style="margin: 1rem auto;">
+        <button class="clear">clear</button>
+        <button class="save">save</button>
+        <a download="splat.png" class="download">download</a>
+        <a href="#home" style="margin-top: -4px; margin-left: 1rem;" class="button special color2 circle icon fa-home">Home</a>
+      </form>
+    </div>
+
     <div id="page-wrapper">
 
         <div id="wrapper">
@@ -37,7 +49,8 @@
                 <h1 class="major">Abstract Expressionism</h1>
                 <p>A Brief History on an artistic movement that took place between the 1940s to the mid 1960s.</p>
                 <ul class="actions">
-                  <li><a href="#second" class="button special color1 circle icon fa-angle-right">Next</a></li>
+                  <li><a href="#paint" class="button special color2 circle icon fa fa-paint-brush">Paint</a></li>
+                  <li><a href="#second" class="button special color2 circle icon fa-angle-right">Next</a></li>
                 </ul>
               </div>
             </section>
@@ -47,9 +60,9 @@
                 <h2 class="major">An Overview</h2>
                 <p style="color: #fff;">Abstract Expressionism is a term applied to a movement in American painting that flourished in New York City after World War II, sometimes referred to as the New York School or, more narrowly, as action painting. The varied work produced by the Abstract Expressionists resists definition as a cohesive style; instead, these artists shared an interest in using abstraction to convey strong emotional or expressive content. These artists moved away from European traditions of painting to create a distinctly American kind of art, which both acknowledged and challenged the domination of early 20th century giants such as Henri Matisse, Pablo Picasso, and Vasily Kandinsky.</p>
                 <ul class="actions">
-                  <li><a href="#home" class="button special color1 circle icon fa-angle-left">Previous</a></li>
-                  <li><a href="#home" class="button special color1 circle icon fa-home">Home</a></li>
-                  <li><a href="#second" class="button special color1 circle icon fa-angle-right">Next</a></li>
+                  <li><a href="#home" class="button special color2 circle icon fa-angle-left">Previous</a></li>
+                  <li><a href="#home" class="button special color2 circle icon fa-home">Home</a></li>
+                  <li><a href="#second" class="button special color2 circle icon fa-angle-right">Next</a></li>
                 </ul>
               </div>
               <div class="image filtered tinted" data-position="top left">
@@ -94,9 +107,9 @@
                     </table>
                   </div>
                   <ul class="actions">
-                    <li><a href="#first" class="button special color1 circle icon fa-angle-left">Previous</a></li>
-                    <li><a href="#home" class="button special color1 circle icon fa-home">Home</a></li>
-                    <li><a href="#third" class="button special color1 circle icon fa-angle-right">Next</a></li>
+                    <li><a href="#first" class="button special color2 circle icon fa-angle-left">Previous</a></li>
+                    <li><a href="#home" class="button special color2 circle icon fa-home">Home</a></li>
+                    <li><a href="#third" class="button special color2 circle icon fa-angle-right">Next</a></li>
                   </ul>
                 </div>
             </section>
@@ -106,9 +119,9 @@
                 <h2 class="major">New York</h2>
                 <p style="color: #fff;">Abstract Expressionism marked the beginning of New York City’s influence as the center of the western art world. The world of the Abstract Expressionist artists was firmly rooted in Lower Manhattan. Jackson Pollock’s studio was on East 8th Street, Willem de Kooning’s and Philip Guston’s were on East 10th, and although Franz Kline moved among various homes and studios in the area, most nights found him and many of his contemporaries at the Cedar Street Tavern on University Place.</p>
                 <ul class="actions">
-                  <li><a href="#second" class="button special color1 circle icon fa-angle-left">Previous</a></li>
-                  <li><a href="#home" class="button special color1 circle icon fa-home">Home</a></li>
-                  <li><a href="#forth" class="button special color1 circle icon fa-angle-right">Next</a></li>
+                  <li><a href="#second" class="button special color2 circle icon fa-angle-left">Previous</a></li>
+                  <li><a href="#home" class="button special color2 circle icon fa-home">Home</a></li>
+                  <li><a href="#forth" class="button special color2 circle icon fa-angle-right">Next</a></li>
                 </ul>
               </div>
               <div class="image filtered tinted" data-position="top right">
@@ -121,9 +134,9 @@
                 <h2 class="major">Mark Rothko</h2>
                 <p>Born in 1903, he and his family emigrated to the US when he was 10 years old. Some of the works that he is most well known for are images which featured large, and luminous color blocks. He is also most well known as one of the best New York School of Abstract painters, for the forms, figures, and great color creation that he delivered, in the many paintings he created.</p>
                 <ul class="actions">
-                  <li><a href="#third" class="button special color1 circle icon fa-angle-left">Previous</a></li>
-                  <li><a href="#home" class="button special color1 circle icon fa-home">Home</a></li>
-                  <li><a href="#fifth" class="button special color1 circle icon fa-angle-right">Next</a></li>
+                  <li><a href="#third" class="button special color2 circle icon fa-angle-left">Previous</a></li>
+                  <li><a href="#home" class="button special color2 circle icon fa-home">Home</a></li>
+                  <li><a href="#fifth" class="button special color2 circle icon fa-angle-right">Next</a></li>
                 </ul>
               </div>
               <div class="gallery">
@@ -141,9 +154,9 @@
                 <h2 class="major">Franz Kline</h2>
                 <p>Best known for large black and white paintings bearing abstract motifs. He started out as a realist with a fluent style that he perfected during an academic training that encouraged him to admire Old Masters. But after settling in New York, he began to evolve his signature abstract approach. By the end of his life he had achieved immense international recognition.</p>
                 <ul class="actions">
-                  <li><a href="#forth" class="button special color1 circle icon fa-angle-left">Previous</a></li>
-                  <li><a href="#home" class="button special color1 circle icon fa-home">Home</a></li>
-                  <li><a href="#sixth" class="button special color1 circle icon fa-angle-right">Next</a></li>
+                  <li><a href="#forth" class="button special color2 circle icon fa-angle-left">Previous</a></li>
+                  <li><a href="#home" class="button special color2 circle icon fa-home">Home</a></li>
+                  <li><a href="#sixth" class="button special color2 circle icon fa-angle-right">Next</a></li>
                 </ul>
               </div>
               <div class="gallery">
@@ -161,9 +174,9 @@
                 <h2 class="major">Jackson Pollock</h2>
                 <p>An influential American painter, and the leading force behind the abstract expressionist movement in the art world. Jackson Pollock's greatness lies in developing one of the most radical abstract styles in the history of modern art, detaching line from color, redefining the categories of drawing and painting, and finding new means to describe pictorial space. </p>
                 <ul class="actions">
-                  <li><a href="#fifth" class="button special color1 circle icon fa-angle-left">Previous</a></li>
-                  <li><a href="#home" class="button special color1 circle icon fa-home">Home</a></li>
-                  <li><a href="#last" class="button special color1 circle icon fa-angle-right">Next</a></li>
+                  <li><a href="#fifth" class="button special color2 circle icon fa-angle-left">Previous</a></li>
+                  <li><a href="#home" class="button special color2 circle icon fa-home">Home</a></li>
+                  <li><a href="#last" class="button special color2 circle icon fa-angle-right">Next</a></li>
                 </ul>
               </div>
               <div class="gallery">
@@ -204,8 +217,9 @@
                       </tbody>
                     </table>
                     <ul class="actions">
-                      <li><a href="#sixth" class="button special color1 circle icon fa-angle-left">Previous</a></li>
-                      <li><a href="#home" class="button special color1 circle icon fa-home">Home</a></li>
+                      <li><a href="#sixth" class="button special color2 circle icon fa-angle-left">Previous</a></li>
+                      <li><a href="#home" class="button special color2 circle icon fa-home">Home</a></li>
+                      <li><a href="#paint" class="button special color2 circle icon fa fa-paint-brush">Paint</a></li>
                     </ul>
                   </div>
                 </div>
@@ -213,7 +227,9 @@
 
             <div class="copyright">&copy; 2017 Joshua Joel Munoz</div>
         </div>
+      </div>
     </div>
+  </div>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
@@ -226,6 +242,7 @@
     </script>
 
     <script src="scripts/skel.min.js"></script>
+    <script src="scripts/paint.js"></script>
 
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
